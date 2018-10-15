@@ -49,6 +49,14 @@ Examples
 $ K8S_NAMESPACE=my-namespace sls deploy -v
 ```
 
+#### Invoke
+```bash
+$ K8S_NAMESPACE=my-namespace sls invoke -f capitalize -d 'hello world' -l
+Serverless: Calling function: capitalize...
+--------------------------------------------------------------------
+Hello world
+```
+
 #### Remove
 ```bash
 $ K8S_NAMESPACE=my-namespace sls remove
