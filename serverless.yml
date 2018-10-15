@@ -17,6 +17,7 @@ service: capitalize
 
 provider:
   name: kubeless
+  namespace: ${env:K8S_NAMESPACE, 'kubeless'}
   runtime: nodejs8
 
 plugins:
