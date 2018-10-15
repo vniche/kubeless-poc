@@ -1,20 +1,27 @@
 {
-  "name": "kubeless-nodejs",
-  "version": "1.0.0",
-  "description": "Example function for serverless kubeless",
+  "name": "kubeless-poc",
+  "version": "0.0.1-alpha",
+  "description": "POC for Kubeless on a local development Kuberentes",
   "dependencies": {
     "lodash": "^4.1.0"
   },
   "devDependencies": {
-    "serverless-kubeless": "^0.4.0"
+    "serverless-kubeless": "^0.4.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vniche/kubeless-poc.git"
   },
   "keywords": [
     "serverless",
     "kubeless"
   ],
-  "author": "The Kubeless Authors",
-  "license": "Apache-2.0"
+  "author": "Vinicius Niche Correa (viniciusnichecorrea@gmail.com)",
+  "bugs": {
+    "url": "https://github.com/vniche/kubeless-poc/issues"
+  },
+  "homepage": "https://github.com/vniche/kubeless-poc#readme"
 }
