@@ -8,7 +8,7 @@ Design
 
 [Serverless](https://serverless.com/learn/overview)
 
-What ‘serverless’ really means is that, as a developer you don’t have to think about those servers. You just focus on code.
+> What ‘serverless’ really means is that, as a developer you don’t have to think about those servers. You just focus on code.
 
 Requirements
 ------------
