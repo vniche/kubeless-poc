@@ -20,9 +20,9 @@ Requirements
 This project was bootstrapped via:
 
 ```bash
-$ npm install -g serverless serverless-kubeless
+$ npm install -g serverless
 $ serverless create --template kubeless-nodejs --path my-project
-$ cd my-project
+$ cd my-project/
 ```
 
 Manifest Parameters
@@ -46,12 +46,12 @@ Examples
 
 #### Deploy
 ```bash
-$ K8S_NAMESPACE=my-namespace sls deploy -v
+$ sls deploy -v
 ```
 
 #### Invoke
 ```bash
-$ K8S_NAMESPACE=my-namespace sls invoke -f capitalize -d 'hello world' -l
+$ sls invoke -f capitalize -d 'hello world' -l
 Serverless: Calling function: capitalize...
 --------------------------------------------------------------------
 Hello world
@@ -59,5 +59,5 @@ Hello world
 
 #### Remove
 ```bash
-$ K8S_NAMESPACE=my-namespace sls remove
+$ sls remove
 ```
