@@ -3,6 +3,8 @@ kubeless-poc
 
 An POC of how to run Kubeless in a raw local Kubernetes.
 
+![Usage](.assets/serverless.gif)
+
 Design
 ------------
 
