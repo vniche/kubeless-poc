@@ -17,13 +17,21 @@ Requirements
 - [Serverless](https://github.com/serverless/serverless/)
 - [Kubeless](https://github.com/serverless/serverless-kubeless)
 
+This project was bootstrapped via:
+
+```bash
+$ mkdir my-project
+$ cd my-project
+$ serverless create --template kubeless-nodejs
+```
+
 Manifest Parameters
 --------------
 
 This serverless manifest lets user provide the following parameter:
 
 ### K8S_NAMESPACE
-```
+```bash
 $ kubectl create ns my-namespace
 $ K8S_NAMESPACE=my-namespace sls deploy -v
 ```
@@ -37,11 +45,11 @@ Examples
 ----------------
 
 #### Deploy
-```
+```bash
 $ K8S_NAMESPACE=my-namespace sls deploy -v
 ```
 
 #### Remove
-```
+```bash
 $ K8S_NAMESPACE=my-namespace sls remove
 ```
