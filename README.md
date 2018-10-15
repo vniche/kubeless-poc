@@ -15,14 +15,14 @@ Requirements
 
 - [Node LTS](https://nodejs.org/en/download/)
 - [Serverless](https://github.com/serverless/serverless/)
-- [Kubeless](https://github.com/serverless/serverless-kubeless)
+- [serverless-kubeless](https://github.com/serverless/serverless-kubeless)
 
 This project was bootstrapped via:
 
 ```bash
-$ mkdir my-project
+$ npm install -g serverless serverless-kubeless
+$ serverless create --template kubeless-nodejs --path my-project
 $ cd my-project
-$ serverless create --template kubeless-nodejs
 ```
 
 Manifest Parameters
