@@ -16,8 +16,6 @@ Requirements
 ------------
 
 - [Node LTS](https://nodejs.org/en/download/)
-- [Serverless](https://github.com/serverless/serverless/)
-- [serverless-kubeless](https://github.com/serverless/serverless-kubeless)
 
 This project was bootstrapped via:
 
@@ -45,6 +43,11 @@ Dependencies
 
 Examples
 ----------------
+
+#### Local
+```bash
+$ sls offline start -v
+```
 
 #### Deploy
 ```bash
