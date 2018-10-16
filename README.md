@@ -24,7 +24,7 @@ This project was bootstrapped via:
 ```bash
 $ npm install -g serverless
 $ serverless create --template kubeless-nodejs --path my-project
-$ cd my-project/
+$ cd my-project/ && npm install
 ```
 
 Manifest Parameters
